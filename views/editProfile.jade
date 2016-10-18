@@ -1,0 +1,31 @@
+block content
+    p EditProfile
+
+    form(name="input", action="html_form_action.asp", method="get")
+        | Full name:
+        input(type="text", name="fullName")
+
+        | Nickname:
+        input(type="text", name="nickName")
+
+        | Gender:
+        select(name='Gender')
+            option(value='', selected='selected') Select gender
+            option(value='FEMALE') FEMALE
+            option(value='MALE') MALE //เลือก
+
+
+        | Date of birth:
+        input(type="text", name="birthday")
+
+        | Weight:
+        input(type="text", name="weight")
+
+        | Height:
+        input(type="text", name="height")
+
+        a(class='button', href='...link...') Save
+
+
+
+
