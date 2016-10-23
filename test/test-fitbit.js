@@ -27,10 +27,10 @@ describe('loading express', function () {
     var server;
     var token = {
         token: {
-            access_token: "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI0S1JHUTUiLCJhdWQiOiIyMjdNRFciLCJpc3MiOiJGaXRiaXQiLCJ0eXAiOiJhY2Nlc3NfdG9rZW4iLCJzY29wZXMiOiJ3aHIgd3BybyB3bnV0IHdzbGUgd3dlaSB3c29jIHdzZXQgd2FjdCB3bG9jIiwiZXhwIjoxNDc2ODA0MTc5LCJpYXQiOjE0NzY3NzUzNzl9.wtJ_JB2Ms557EEbjQseZvcbKMTT04Fx3FIVo4I7pX48",
+            access_token: "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI0S1JHUTUiLCJhdWQiOiIyMjdNRFciLCJpc3MiOiJGaXRiaXQiLCJ0eXAiOiJhY2Nlc3NfdG9rZW4iLCJzY29wZXMiOiJ3aHIgd3BybyB3bnV0IHdzbGUgd3dlaSB3c29jIHdzZXQgd2FjdCB3bG9jIiwiZXhwIjoxNDc2ODc4MzUyLCJpYXQiOjE0NzY4NDk1NTJ9.WqOmzzVJfxYFhqO_IeM3GOUvD9fhZUIKr7nAUf2CrHI",
             expires_in: 28800,
-            refresh_token: "94e2674b95b4602d233b4f7127a5334110be1e5b3e940c101532a19859a2d09b",
-            scope: "heartrate profile nutrition social settings activity sleep weight location",
+            refresh_token: "b536dfed5bc279840dc6623fb852782d51215beb39775efa0d506d5ed7befa67",
+            scope: "profile social location nutrition sleep heartrate settings weight activity",
             token_type: "Bearer",
             user_id: "4KRGQ5"
         }

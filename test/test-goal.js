@@ -58,6 +58,7 @@ describe('loading express', function () {
     });
 
     it('404 everything else', function testPath(done) {
+        this.timeout(5000);90
         request(server)
             .get('/foo/bar')
             .expect(404, done);
